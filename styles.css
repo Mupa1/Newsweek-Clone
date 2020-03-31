@@ -27,16 +27,37 @@ header svg {
   color: #f72210;
 }
 
+.orange:hover {
+  color: #f72210;
+}
+
 .roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.caption-absolute {
+.absolute {
   position: absolute;
+}
+
+.caption-position {
+  bottom: 7px;
+  left: 0;
+}
+
+.us {
   bottom: 0;
   left: 0;
 }
 
 .underline:hover {
   text-decoration-color: #f72210;
+}
+
+.empty {
+  height: 19px;
+  position: relative;
+}
+
+.img-relative {
+  position: relative;
 }
