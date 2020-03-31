@@ -24,11 +24,26 @@ header svg {
   height: 19px;
 }
 
-.subscribe {
+.subscribe,
+.us {
   color: #f72210;
+}
+
+.signin,
+h6,
+.subscribe,
+.us {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.signin {
-  font-family: 'Roboto Condensed', sans-serif;
+.image img {
+  width: 100%;
+}
+
+.row {
+  padding: 0;
+}
+
+.col-12 {
+  padding: 0;
 }
