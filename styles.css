@@ -10,8 +10,7 @@
 }
 
 body {
-  background: #f4f5f6;
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 80%;
 }
 
@@ -24,26 +23,20 @@ header svg {
   height: 19px;
 }
 
-.subscribe,
-.us {
+.orange {
   color: #f72210;
 }
 
-.signin,
-h6,
-.subscribe,
-.us {
+.roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.image img {
-  width: 100%;
+.caption-absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-.row {
-  padding: 0;
-}
-
-.col-12 {
-  padding: 0;
+.underline:hover {
+  text-decoration-color: #f72210;
 }
