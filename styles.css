@@ -12,6 +12,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 80%;
+  color: #333;
 }
 
 header {
@@ -60,4 +61,18 @@ header svg {
 
 .img-relative {
   position: relative;
+}
+
+.opinion {
+  color: inherit;
+}
+
+.opinion:hover {
+  color: #f72210;
+}
+
+h6,
+h6 a,
+h5 a {
+  color: #000;
 }
