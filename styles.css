@@ -76,3 +76,8 @@ h6 a,
 h5 a {
   color: #000;
 }
+
+h6 a:hover,
+h5 a:hover {
+  color: #000;
+}
