@@ -11,8 +11,9 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 80%;
+  font-size: 14px;
   color: #333;
+  overflow-x: hidden;
 }
 
 header {
@@ -66,17 +67,50 @@ header svg {
   color: inherit;
 }
 
-.opinion:hover {
+.opinion:hover,
+.black-orange:hover {
   color: #f72210;
 }
 
+.black-black:hover {
+  color: #000;
+}
+
 h6,
-h6 a,
-h5 a {
+h5,
+a {
   color: #000;
 }
 
 h6 a:hover,
 h5 a:hover {
   color: #000;
+}
+
+.border-d-1 {
+  border-top: 4px solid #f92859;
+}
+
+.img-95 {
+  width: 95px;
+  height: 95px;
+}
+
+.img-63 {
+  width: 63px;
+  height: 63px;
+}
+
+.debate-img-p {
+  top: -15px;
+  right: 0;
+}
+
+.size-40 {
+  height: 40px;
+  width: 40px;
+}
+
+.black-bg {
+  background-color: #000;
 }
