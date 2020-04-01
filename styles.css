@@ -75,11 +75,6 @@ header svg {
   position: relative;
 }
 
-.opinion {
-  color: inherit;
-}
-
-.opinion:hover,
 .black-orange:hover {
   color: #f72210;
 }
