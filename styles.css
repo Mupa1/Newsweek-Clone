@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 * {
   margin: 0;
@@ -44,6 +45,17 @@ header svg {
 .caption-position {
   bottom: 7px;
   left: 0;
+}
+
+.caption-position2 {
+  bottom: 15px;
+  left: 0;
+  background-color: #c2d4d7;
+}
+
+.caption-position2:hover {
+  background-color: #000;
+  color: #c2d4d7;
 }
 
 .us {
@@ -113,4 +125,8 @@ h5 a:hover {
 
 .black-bg {
   background-color: #000;
+}
+
+.lora {
+  font-family: 'Lora', serif;
 }
