@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
 }
 
-header {
+.orange-bg {
   background-color: #f72210;
 }
 
@@ -89,8 +89,7 @@ a {
   color: #000;
 }
 
-h6 a:hover,
-h5 a:hover {
+a:hover {
   color: #000;
 }
 
@@ -124,4 +123,14 @@ h5 a:hover {
 
 .lora {
   font-family: 'Lora', serif;
+}
+
+.newsletter {
+  width: 290px;
+  height: 161px;
+}
+
+.n-icon {
+  height: 30px;
+  max-width: 30px;
 }
