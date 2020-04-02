@@ -47,6 +47,11 @@ header svg {
   left: 0;
 }
 
+.caption-position1 {
+  bottom: 0;
+  left: 0;
+}
+
 .caption-position2 {
   bottom: 15px;
   left: 0;
@@ -56,11 +61,6 @@ header svg {
 .caption-position2:hover {
   background-color: #000;
   color: #c2d4d7;
-}
-
-.us {
-  bottom: 0;
-  left: 0;
 }
 
 .underline:hover {
