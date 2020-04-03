@@ -153,3 +153,12 @@ a:hover {
   bottom: 3px;
   left: 30px;
 }
+
+.subscribe {
+  max-width: 241px;
+}
+
+.news-mag {
+  top: 36px;
+  left: 80px;
+}
