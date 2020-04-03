@@ -162,3 +162,12 @@ a:hover {
   top: 14px;
   left: 80px;
 }
+
+.newsletter-bg {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat;
+  height: 160px;
+}
+
+.darker:hover {
+  background-color: #c61606;
+}
