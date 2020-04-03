@@ -134,3 +134,22 @@ a:hover {
   height: 30px;
   max-width: 30px;
 }
+
+.icon-box {
+  width: 228px;
+}
+
+.n-position {
+  top: -8px;
+  left: 15px;
+  z-index: 1;
+}
+
+.slideshow-icons {
+  max-width: 70px;
+}
+
+.num-position {
+  bottom: 3px;
+  left: 30px;
+}
