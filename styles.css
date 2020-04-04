@@ -98,7 +98,7 @@ a:hover {
 }
 
 .img-95 {
-  width: 95px;
+  min-width: 95px;
   height: 95px;
 }
 
@@ -196,5 +196,17 @@ footer svg {
 
   .newsletter-bg {
     height: 274px;
+  }
+
+  .empty {
+    background: none !important;
+  }
+
+  .b-border {
+    border-top: 1px solid #d9d9d9;
+  }
+
+  .no-border {
+    border-bottom: none !important;
   }
 }
