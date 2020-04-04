@@ -177,7 +177,8 @@ footer svg {
   height: 36px;
 }
 
-.footer-links {
+.footer-links,
+.editions {
   line-height: 26px;
 }
 
