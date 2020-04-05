@@ -206,6 +206,10 @@ footer svg {
     border-top: 1px solid #d9d9d9;
   }
 
+  .t-border {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
   .no-border {
     border-bottom: none !important;
   }
