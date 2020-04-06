@@ -247,14 +247,9 @@ footer svg {
     grid-row: 5;
   }
 
-  .news {
+  .news-sign {
     grid-column: 1/3;
     grid-row: 6;
-  }
-
-  .newsletter {
-    grid-column: 1/3;
-    grid-row: 7;
   }
 }
 
@@ -263,7 +258,7 @@ footer svg {
 @media only screen and (min-width: 992px) {
   .my-containers {
     display: grid;
-    grid-template-columns: 1fr 40% 1fr;
+    grid-template-columns: 1fr 43% 1fr;
   }
 
   .opinion {
@@ -274,15 +269,11 @@ footer svg {
   .debate {
     grid-column: 3;
     grid-row: 2;
+    display: grid;
   }
 
-  .news {
+  .news-sign {
     grid-column: 3;
     grid-row: 3;
-  }
-
-  .newsletter {
-    grid-column: 3;
-    grid-row: 4;
   }
 }
