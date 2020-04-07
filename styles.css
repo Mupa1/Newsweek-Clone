@@ -285,6 +285,13 @@ footer svg {
   .more-stories {
     grid-column: 2;
     grid-row: 3;
+    height: 250px;
+    overflow: auto;
+    -ms-overflow-style: none;
+  }
+
+  .more-stories::-webkit-scrollbar {
+    display: none;
   }
 
   .opinion {
@@ -328,6 +335,10 @@ footer svg {
     grid-row: 3;
   }
 
+  .more-stories {
+    height: 800px;
+  }
+
   .big-navv {
     display: flex !important;
   }
@@ -358,10 +369,5 @@ footer svg {
 
   #search-in {
     width: 80px;
-  }
-
-  .last-links ul li + li::before {
-    content: " | " !important;
-    color: gray;
   }
 }
