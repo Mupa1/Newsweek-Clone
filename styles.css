@@ -192,8 +192,16 @@ footer svg {
   display: none;
 }
 
+.weather {
+  display: none;
+}
+
 .location {
   display: none;
+}
+
+.big-navv {
+  display: none !important;
 }
 
 /* Media Queries */
@@ -210,6 +218,10 @@ footer svg {
 
   header svg {
     height: 22px;
+  }
+
+  .weather {
+    display: block;
   }
 }
 
@@ -293,6 +305,7 @@ footer svg {
   .my-containers {
     display: grid;
     grid-template-columns: 1fr 43% 1fr;
+    margin-top: 100px !important;
   }
 
   .opinion {
@@ -309,5 +322,17 @@ footer svg {
   .news-sign {
     grid-column: 3;
     grid-row: 3;
+  }
+
+  .big-navv {
+    display: flex !important;
+  }
+
+  .small-nav {
+    display: none !important;
+  }
+
+  .big-svg svg {
+    height: 60px;
   }
 }
