@@ -15,7 +15,7 @@
 
 <body>
   <header class="container-fluid text-white navbar-dark p-0 py-2 fixed-top orange-bg">
-    <nav class="navbar py-1">
+    <nav class="navbar py-1 img-relative">
       <a href="#">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background: new 0 0 395.6 60;" xml:space="preserve">
@@ -26,12 +26,17 @@
           </g>
         </svg>
       </a>
-      <div class="d-flex flex-row-reverse">
+      <div class="d-flex absolute weather-box">
+        <a href="#" class="weather text-white roboto font font-weight-bold"><span class="fas fa-cloud-sun fa- pr-1"></span> 20°</a>
+        <span><a href="#" class="location text-white roboto font font-weight-bold pl-2"> Munich, DE <i class="fas fa-chevron-right fa-fw"></i></a></span>
+      </div>
+      
+      <div class="d-flex flex-row-reverse m-menu-container">
         <button class="navbar-toggler p-0 pl-1 border-0" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="#" class="font-weight-bold bg-white roboto orange p-1 text-decoration-none">SUBSCRIBE</a>
-        <a href="#" class="text-white font-weight-bold roboto signin p-1 text-decoration-none">SIGN IN</a>
+        <a href="#" class="font-weight-bold bg-white roboto orange p-1 text-decoration-none mr-sm-3">SUBSCRIBE <i class="fas fa-chevron-right fa-fw subscribe-btn-i"></i></a>
+        <a href="#" class="text-white font-weight-bold roboto signin p-1 text-decoration-none mr-sm-3">SIGN IN</a>
       </div>
     </nav>
   </header>

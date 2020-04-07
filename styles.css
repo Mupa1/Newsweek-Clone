@@ -184,7 +184,41 @@ footer svg {
   color: #000 !important;
 }
 
+.weather-box {
+  left: 180px;
+}
+
+.subscribe-btn-i {
+  display: none;
+}
+
+.location {
+  display: none;
+}
+
 /* Media Queries */
+
+/* Small devices (landscape phones, 481px and up) */
+@media only screen and (min-width: 481px) {
+  .m-menu-container {
+    font-size: 120%;
+  }
+
+  .subscribe-btn-i {
+    display: inline-block;
+  }
+
+  header svg {
+    height: 22px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .location {
+    display: block;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
