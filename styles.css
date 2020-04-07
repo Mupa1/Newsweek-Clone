@@ -204,6 +204,10 @@ footer svg {
   display: none !important;
 }
 
+.last-nav {
+  display: none !important;
+}
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 481px and up) */
@@ -334,5 +338,30 @@ footer svg {
 
   .big-svg svg {
     height: 60px;
+  }
+
+  .last-nav::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
+  .last-nav {
+    display: block !important;
+  }
+
+  #search-in {
+    width: 80px;
+  }
+
+  .last-links ul li + li::before {
+    content: " | " !important;
+    color: gray;
   }
 }
