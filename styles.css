@@ -208,6 +208,13 @@ footer svg {
   display: none !important;
 }
 
+header,
+main,
+footer {
+  max-width: 1310px;
+  margin: auto;
+}
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 481px and up) */
@@ -369,5 +376,20 @@ footer svg {
 
   #search-in {
     width: 80px;
+  }
+
+  .opinion-box {
+    display: grid;
+  }
+}
+
+/* Large devices (laptops/desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  header,
+  main,
+  footer {
+    min-width: 1310px;
+    margin: auto;
   }
 }
