@@ -377,10 +377,6 @@ footer {
   #search-in {
     width: 80px;
   }
-
-  .opinion-box {
-    display: grid;
-  }
 }
 
 /* Large devices (laptops/desktops, 1200px and up) */
@@ -389,7 +385,7 @@ footer {
   header,
   main,
   footer {
-    min-width: 1310px;
+    max-width: 1310px;
     margin: auto;
   }
 }
